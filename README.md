@@ -20,10 +20,10 @@ We include an example and a [specification](#the-milepost-spec) (for those who w
 Taking inspiration from [standard-js](https://github.com/feross/standard), you can include one of these badges in your readme to
 let people know that your project is using Mileposts for its onboarding and project management.
 
-[![mileposts](https://cdn.rawgit.com/taoeffect/mileposts/master/badge/badge.svg)](https://github.com/taoeffect/mileposts)
+[![mileposts](https://cdn.rawgit.com/taoeffect/mileposts/master/badge.svg)](https://github.com/taoeffect/mileposts)
 
 ```markdown
-[![mileposts](https://cdn.rawgit.com/taoeffect/mileposts/master/badge/badge.svg)](https://github.com/taoeffect/mileposts)
+[![mileposts](https://cdn.rawgit.com/taoeffect/mileposts/master/badge.svg)](https://github.com/taoeffect/mileposts)
 ```
 
 [![mileposts](https://img.shields.io/badge/team%20clarity-mileposts-brightgreen.svg)](https://github.com/taoeffect/mileposts)
