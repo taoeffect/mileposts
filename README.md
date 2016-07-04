@@ -1,7 +1,5 @@
 # The Mileposts Methodology
 
-_Simple software methodology for efficient and effective collaboration._
-
 Mileposts are special types of issues, similar to _[milestones](https://guides.github.com/features/issues/#filtering)_, but not as heavy and not (necessarily) bound to any specific release of the software.
 
 ### Purpose of a Milepost
@@ -34,47 +32,39 @@ let people know that your project is using Mileposts for its onboarding and proj
 [![mileposts](https://img.shields.io/badge/onboarding-mileposts-brightgreen.svg)](https://github.com/taoeffect/mileposts)
 ```
 
-
 ## Milepost Example
 
-### User login/logout system
+See the [example milepost](https://github.com/taoeffect/mileposts/issues/1) in this issues tracker.
 
-Assigned: **@taoeffect** _(doesn't need to be explicitely written if the UI supports it)_
+## Milepost Template
 
-Branch: **userlogin**
+We recommend using **[saved replies](https://help.github.com/articles/creating-a-saved-reply/)** instead of [issue templates](https://github.com/blog/2111-issue-and-pull-request-templates) for creating Mileposts on GitHub.
+
+Create a saved reply and copy/paste this content into it:
+
+```markdown
+Branch: **branch**
 
 #### Description
 
-All of the tasks necessary to make it possible for a user to log in to the site and log out of the site. This includes modifications to the user interface, so that means we may need **@dan** to make some new markup for us. It also requires some modifications to the backend so **@rachel**'s help will be needed.
+A description of what this milepost is trying to accomplish, and the subarea (of this project) that work on this milepost will restrict itself to. Make sure to include @mentions of all collaborators who are (or may be) involved in this milepost, and what their roles are.
 
 #### Files
 
-- Create `src/backend/login.js`
-- Modify `src/frontend/login.html`
-- Create `src/frontend/js/login.js`
-- Need to create new login/logout icons and place them in `src/frontend/assets/`
+- Create `path/to/file`
+- Remove `path/to/file`
+- Update `path/to/file`
 
 #### Issues
 
-- [ ] #29 - Backend database user schema & API
-- [ ] #17 - Add session info to database **(shared with MP #50)**
-- [x] #30 - Clear cookies on logout
-- [ ] #28 - Frontend JS for AJAX login/logout
-- [ ] #45 - Markup for login interface
-- [ ] #44 - Create backend unit tests for login/logout
-- [ ] #47 - Create frontend unit tests for login/logout
+List of issues that need to be closed for closing this milepost:
 
-------------
+- [ ] #29 - Brief description of issue #29
+- [x] #30 - Example of an issue that has been closed
+- [ ] #28 - Example of an issue that's shared with another MP **(shared with MP #50)**
+```
 
-| Comment 1 by @taoeffect                                                                                                                                                                                                                                          |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| So **@rachel**'s working on #29 and making good progress on it. I've almost got the frontend js working, see the latest updates I posted in #28.<br/><br/>Once I get #28 closed I plan to work with **@dan** on integrating the markup (#45) with the JS in #28. |
-
-_**@taoeffect** added a commit `9adeaf` that referenced this issue 9 days ago_
-
-_etc..._
-
--------------
+Mileposts **must** be assigned to someone, called the **milepost lead**.
 
 ## The Milepost "Spec"
 
