@@ -47,7 +47,10 @@ Branch: **branch**
 
 #### Description
 
-A description of what this milepost is trying to accomplish, and the subarea (of this project) that work on this milepost will restrict itself to. Make sure to include @mentions of all collaborators who are (or may be) involved in this milepost, and what their roles are.
+A description of what this milepost is trying to accomplish, and the subarea (of
+this project) that work on this milepost will restrict itself to. Make sure to
+include @mentions of all collaborators who are (or may be) involved in this
+milepost, and what their roles are.
 
 #### Files
 
