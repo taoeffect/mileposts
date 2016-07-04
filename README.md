@@ -26,7 +26,7 @@ let people know that your project is using Mileposts for its onboarding and proj
 [![mileposts](https://cdn.rawgit.com/taoeffect/mileposts/master/badge.svg)](https://github.com/taoeffect/mileposts)
 ```
 
-[![mileposts](https://img.shields.io/badge/onboarding-mileposts-brightgreen.svg)](https://github.com/taoeffect/mileposts)
+[![mileposts](https://img.shields.io/badge/team%20clarity-mileposts-brightgreen.svg)](https://github.com/taoeffect/mileposts)
 
 ```markdown
 [![mileposts](https://img.shields.io/badge/onboarding-mileposts-brightgreen.svg)](https://github.com/taoeffect/mileposts)
