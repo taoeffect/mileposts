@@ -43,7 +43,7 @@ We recommend using **[saved replies](https://help.github.com/articles/creating-a
 Create a saved reply and copy/paste this content into it:
 
 ```markdown
-Branch: **branch**
+Branch for this [milepost](https://github.com/taoeffect/mileposts): **branch**
 
 #### Description
 
