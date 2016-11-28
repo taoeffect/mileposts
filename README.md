@@ -69,6 +69,12 @@ List of issues that need to be closed for closing this milepost:
 
 Mileposts **must** be assigned to someone, called the **milepost lead**.
 
+## Projects using Mileposts
+
+- [Group Income Simple](https://github.com/okTurtles/group-income-simple)
+
+_To add your project: send a PR with your project name added to the end of this list._
+
 ## The Milepost "Spec"
 
 A milepost is an issue that has this format:
