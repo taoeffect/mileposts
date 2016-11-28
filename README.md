@@ -43,7 +43,7 @@ We recommend using **[saved replies](https://help.github.com/articles/creating-a
 Create a saved reply and copy/paste this content into it:
 
 ```markdown
-Branch for this [milepost](https://github.com/taoeffect/mileposts): **branch**
+The primary branch for this [milepost](https://github.com/taoeffect/mileposts) is located **[here](URL to branch).**
 
 #### Description
 
@@ -77,7 +77,7 @@ A milepost is an issue that has this format:
   - The tag's color **SHOULD** stand out from other tags (black or white are good choices).
 - **MUST** use a title that represents the subarea being worked on.
 - **MUST** be assigned to the milepost lead.
-- **MUST** state the branch that's tracking the _latest progress_ for the milepost.
+- **MUST** state and link to the branch that's tracking the _latest progress_ for the milepost. The branch **MAY** point to a fork of the current project.
 - **MUST** contain a description of the subarea that's being worked on.
 - **SHOULD** state the (user)names of any other collaborators who are (or might) be working on this milepost.
 - **MUST** contain a list of files that might be modified, created, or deleted.
